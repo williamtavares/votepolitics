@@ -1,0 +1,454 @@
+/**
+	* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+	* http://cssreset.com
+	*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	background-color: rgb(253, 253, 253);
+	overflow: hidden;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Main CSS*/
+html, body{
+	height: 100%;
+	background-color: rgb(253, 253, 253);
+}
+
+#content::-webkit-scrollbar, #right-sidebar::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+#content::-webkit-scrollbar-track, #right-sidebar::-webkit-scrollbar-track {
+	background-color: rgba(178, 178, 178, 0.3);
+}
+ 
+#content::-webkit-scrollbar-thumb, #right-sidebar::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+h1 {
+  background-image: url(../photos/votepolitics.png);
+  background-size: contain;
+  height: 45px;
+  width: 232px;
+  background-repeat: no-repeat;
+  margin: 5px auto 0 auto;
+}
+
+h2 {
+	font-size: .90em;
+	text-align: center;
+	color: rgb(69, 69, 69);
+}
+
+h3 {
+	font-size: 1.25em;
+	line-height: 1.00em;
+	text-align: center;
+}
+header  {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  box-shadow: -1px 0px 2px #000000;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+}
+
+#header a:active {
+	color: white;
+}
+
+nav li {
+	float: left;
+	margin-right: 15px;
+	color: rgb(100, 100, 100);
+}
+
+nav ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 265px;
+	height: 50px;
+	line-height: 50px;
+}
+
+#main-container {
+	background: white;
+	height:100%;
+}
+
+#content, #about, #contact, #live-feed{
+	margin: 0 auto;
+	width: 70%;
+	height: 93%;
+	left: 13.6%;
+	position: fixed;
+	overflow: auto;
+	padding-top: 1%;
+	top: 50px;*
+}
+
+#about, #contact, #content-live-feed, #live-feed{
+	width: 100% !important;
+	left: 0% !important;
+	text-align: center;
+	padding-top:20%;
+}
+
+ #content-live-feed, #live-feed {
+	padding-top: 0% !important;
+	height: 100%;
+ }
+
+#live-feed {
+	margin-top: 7% !important;
+}
+
+#live-feed span{
+	display: inline-block;
+}
+
+#twitter-feed, #news-feed{
+	width: 50%;
+	height: 91%;
+	float: left;
+}
+
+#twitter-feed iframe{
+	height: 627px;
+	width: 524px;
+}
+
+#news-feed iframe {
+	height: 602px; 
+	width: 525px;
+	border: 1px solid #e8e8e8;
+	background-color: #fff;
+	border-radius: 5px;	
+	margin: 8px;
+	overflow: none;
+}
+
+#select-candidate {
+	padding-top: 4%;
+	text-align: center;
+}
+
+#candidate-list {
+	margin-top: .5%;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #A0A0A0;
+}
+
+#about p, #contact p{
+	margin-bottom: 15px;
+}
+
+#container{ 
+	margin: 0 auto;
+}
+
+footer {
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+	color: rgb(100, 100, 100);
+}
+
+footer p{
+	text-align: center;
+}
+
+/*****************************
+	Show items page
+*****************************/
+
+#thank-you {
+	width: 20%;
+	margin:0 auto;
+}
+
+#thank-you p{
+	text-align: center;
+}
+
+#left-sidebar, #right-sidebar{
+	top: 50px;
+}
+
+#left-sidebar {
+	background-color: rgb(228, 228, 228);
+	box-shadow: 1px 0 2px #A8A8A8;
+	width: 13.5%;
+	height: 97%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	padding-top: 1%;
+}
+
+#right-sidebar {
+	background-color: rgb(228, 228, 228);
+	box-shadow: -1px 0 2px #A8A8A8;
+	height: 97%;
+	width: 16.3%;
+	right: 0;
+	position: fixed;
+	overflow: auto;
+}	
+
+#vote-results{
+	font-size: 17px;
+	margin: 0 auto;
+	padding-top: 3%;
+	padding-bottom: 1%;
+	text-align: center;
+	width: 100%;
+	background-color: #F2F2F2;
+	display: none;
+}
+
+#left-results, #right-results{
+	color: rgb(242, 242, 242);
+	display: inline-block;
+	vertical-align: top;
+	width: 325px;
+}
+
+#right-results{
+	display: inline-block;
+	width: 290px;
+}
+
+.results-graph{
+	min-width: 1px;
+	height: 20px;
+	margin-right: 5px;
+	float: left;
+}
+
+#name-header{
+	color: rgb(111, 111, 111);
+	background-color: rgb(242, 242, 242);
+	box-shadow: 0px 0px 1px #000000;
+	position: relative;
+	padding: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.status{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+
+.status p{
+	color: rgb(79, 79, 79);
+	background-color: rgb(242, 242, 242);
+	border: 1px solid rgb(218, 218, 218);
+	margin: 5px;
+	padding: 5px;
+	font-weight: bold;
+	position: absolute;
+}
+
+#democratic-candidates, #republican-candidates {
+	width: 49.9%;
+	text-align: center;
+}
+
+#democratic-candidates{
+	float: left;
+}
+
+#republican-candidates{
+	float: right;
+	border-left: 1px solid rgb(219, 219, 219);
+}
+
+
+.photo-source{
+	margin-top: 2px;
+	color: rgb(177, 177, 177);
+	font-size: 10px;
+}
+
+#democratic-running p, #democratic-notrunning p, #republican-running p, #republican-notrunning p{
+
+}
+
+#democratic-running hr, #democratic-notrunning hr, #republican-running hr, #republican-notrunning hr{
+	width: 25%;
+	margin-left: 5px;
+	position: absolute;
+}
+
+#comments {
+	float: left;
+	width: 250px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.running-status {
+	font-size: .90em;
+	visibility: hidden;
+	display: none;
+}
+	
+.candidate-container{
+	margin-bottom: 10px;
+}
+
+.vote-button{
+	background-color: rgb(242, 242, 242);
+	border: 1px solid rgb(153, 153, 153);
+}
+
+.DemocraticCandidate, .RepublicanCandidate{
+	display: inline-block;
+	width: 117px;
+	height: 153px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.DemocraticCandidate {
+	/*border: 1px solid blue;*/
+}
+.RepublicanCandidate {
+	/*border: 1px solid red;*/
+}
+
+.candidate-photo {
+	height: 90px;
+	width: 90px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+}
+
+.candidate-photo img{
+	-webkit-filter: drop-shadow(3px 3px 5px rgb(140, 136, 136));
+	position: relative;
+	z-index: 3;
+	cursor: pointer; 
+	cursor: hand;
+	width: 90px;
+	height: 90px;
+}
+
+.candidate-wiki{
+	display: none;
+	background: grey;
+	text-align: center;
+	margin: 0 auto;
+	width: 65%;
+	height: 75%;
+	position: fixed;
+	z-index: 10;
+	right: 3%;
+	left: 0;
+	top: 10%;
+}
+
+.lights-out{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 13.6%;
+	z-index: 5;
+	background: black;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+}
+
+#recaptcha{
+	display: block;
+	width: 304px;
+	padding-bottom: 1.25%;
+}
+
+.wiki {
+	width: 100%;
+	height: 100%;
+}
+
+object{
+	height:100%;
+	width: 100%;
+	}
+
+.comments {
+	width: 45%;
+	background-color: brown;
+	height: 100%;
+	float: left;
+}
+
+/*Facebook comments resize*/
+.fb-comments, .fb-comments span, .fb-comments iframe { 
+	width: 100% !important; 
+}
+
+#number-of-votes {
+  height: 20px;
+  color: rgb(242, 242, 242);
+  position: absolute;
+  top: 0;
+  width: 100%;	
+  padding-top: 1%;
+}
