@@ -17,7 +17,7 @@ http://votepolitics.us
 
   (Note: You will only input the private key in the vote.php file (once), keep this key private and safe)
 
-* I had plans on loggin as users voted but never got around to implementing that feature that is why the table "log_tbl" exists
+* I had plans on logging vote activity to keep a history of vote activity but never got around to implementing that feature that is why the table "log_tbl" exists
 
 After deploying the app to an apache server you should have something similar to the following:
 
