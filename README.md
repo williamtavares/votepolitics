@@ -8,10 +8,7 @@ VotePolitics is a polling website made to let anyone cast a vote as well as keep
 
 http://votepolitics.us
 
-Enjoy :)
-
-
-------------- CONFIGURATION -------------
+<b>------------- CONFIGURATION -------------</b><br>
 
 - Generate the DB using the SQL commands provided (config/db_votepolitics.sql)
 - Insert your own databse configuration into the (config/vp_dbconfig.inc)
@@ -25,3 +22,8 @@ Enjoy :)
 After deploying the app to an apache server you should have something similar to the following:
 
 http://votepolitics.us
+
+<b>** This project was createad and last updated June 2015 </b><br>
+<b>** (The code definitely needs to be cleaned up more, this was one of my first public projects that invovled external users so the codebase is not the best. I just wanted to share it in case anyone is interested)
+</b><br><br>
+Thanks :D
