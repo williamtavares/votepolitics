@@ -1,4 +1,4 @@
-// $( document ).ready(function() {
+$( document ).ready(function() {
 // 	if (($(window).width() < 1199)){
 // 				window.location = "http://m.votepolitics.us"
 // 		};
